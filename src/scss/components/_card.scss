@@ -25,6 +25,7 @@
         display: flex;
         justify-content: space-between;
         color: var(--accent-color1);
+        
         .card-price {
           display: flex;
           gap: 1rem;
@@ -39,6 +40,36 @@
           font-size: 0.9rem;
         }
       }
+    }
+    
+  }
+  button {
+    color: var(--accent-color1);
+    background-color: var(--background);
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      linear-gradient(101deg, var(--pink), var(--orange));
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px var(--background) inset;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      box-shadow: none;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 

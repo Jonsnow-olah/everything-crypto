@@ -1,6 +1,6 @@
 import React from "react";
 import superEth from "../assets/supereth.png";
-export default function Card({ imgUrl, vendor, rate, projectLink }) {
+export default function Card2({ imgUrl, vendor, rate, projectLink }) {
   return (
     <div className="card">
       <div className="card-image">
@@ -21,7 +21,7 @@ export default function Card({ imgUrl, vendor, rate, projectLink }) {
         <div className="card-sub-details">
          
           <button><a href={projectLink} target="_blank" rel="noreferrer" className="link">
-          Buy Now
+          Sell Now
           </a></button>
         </div>
       </div>

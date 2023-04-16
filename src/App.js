@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, Routes, Route } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import ScrollReveal from 'scrollreveal'
 import Footer from './components/Footer'
@@ -10,7 +11,9 @@ import Release2 from './components/Release2'
 import ScrollToTop from './components/ScrollToTop'
 import Signup from './components/Signup'
 import SuperRare from './components/SuperRare'
+
 import "./scss/index.scss"
+import SuperRare2 from './components/SuperRare2'
 
 const App = () => {
   const [theme, setTheme] = useState("dark");
@@ -49,17 +52,22 @@ const App = () => {
     nav[0].style.transform = "none";
   }, 1500);
   return (
-    <div data-theme={theme} className='app-container'>
-      <Navbar changeTheme={changeTheme} currentTheme={theme} />
-      <Home />
-      <Release />
-      {/* <Free /> */}
-      <SuperRare />
-      <Release2 />
-      <Signup />
-      <Footer />
-      <ScrollToTop />
-    </div>
+    
+    
+        <div data-theme={theme} className='app-container'>
+          <Navbar changeTheme={changeTheme} currentTheme={theme} />
+
+          <Home />
+          <Release />
+          {/* <Free /> */}
+          <SuperRare/>
+          <Release2 />
+          <SuperRare2 />
+          <Signup />
+          <Footer />
+          <ScrollToTop />
+        </div>
+      
   )
 }
 

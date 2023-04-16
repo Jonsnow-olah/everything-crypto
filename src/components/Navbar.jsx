@@ -32,16 +32,16 @@ function Navbar({changeTheme, currentTheme}) {
         <div className={`links-container ${navState ? "nav-visible" : ""}`}>
             <ul className="links">
                 <li>
-                    <a href="#">Crypto Vendors</a>
+                    <a href="#superRare">Buy Crypto</a>
                 </li>
                 <li>
-                    <a href="#">Learn Crypto</a>
+                    <a href="#superRare2">Sell Crypto</a>
+                </li>
+                <li>
+                    <a href="#release">Learn Crypto</a>
                 </li>
                 <li>
                     <a href="#">About Us</a>
-                </li>
-                <li>
-                    <a href="#">Crypto Plugs</a>
                 </li>
                 <li onClick={changeTheme}>
                     {currentTheme === 'dark' ? <ImSun className="light" /> : <BsFillMoonFill className="dark" />}

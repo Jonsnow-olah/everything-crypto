@@ -47,10 +47,11 @@ function Footer() {
                           ))
                       } */}
                   </ul>
-              </div>
-              <div className="links">
-                <h4 href="#home">About Us</h4>
 
+              </div>
+
+              <div className="links">
+                <p><a href='#home'>About Us</a></p>
               </div>
 
               
