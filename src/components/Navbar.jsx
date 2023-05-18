@@ -3,7 +3,7 @@ import {GiHamburgerMenu} from "react-icons/gi";
 import {MdClose} from "react-icons/md";
 import {ImSun} from "react-icons/im"
 import {BsFillMoonFill} from "react-icons/bs";
-// import logo from "../assets/logo.jpg";
+// import logo from "../assets/logo.png";
 
 function Navbar({changeTheme, currentTheme}) {
     const [navState, setNavState] = useState(false);
@@ -11,7 +11,8 @@ function Navbar({changeTheme, currentTheme}) {
     <nav>
         <div className="brand-container">
             <div className="brand">
-                {/* <img src={logo} alt='logo' /> */}
+                {/* <img src={logo} alt='logo'/> */}
+               <p className="sub-title">E-Crypto </p>
 
             </div>
 
@@ -41,7 +42,7 @@ function Navbar({changeTheme, currentTheme}) {
                     <a href="#release">Learn Crypto</a>
                 </li>
                 <li>
-                    <a href="#">About Us</a>
+                    <a href="https://mangrove-lemongrass-1f7.notion.site/About-Us-1bee1663cd0f49fd80be35d3fc945271">About Us</a>
                 </li>
                 <li onClick={changeTheme}>
                     {currentTheme === 'dark' ? <ImSun className="light" /> : <BsFillMoonFill className="dark" />}

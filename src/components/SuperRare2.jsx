@@ -20,10 +20,9 @@ export default function SuperRare2() {
   return (
     <div className="super-rare" id="superRare2">
       <div className="title-container">
-        <h2 className="title">LE Super Rare Auction</h2>
+        <h2 className="title">SELL CRYPTO</h2>
         <p className="description">
-          We have released four limited edition NFT's early which which can be
-          bid on via <a href="#">OpenSea</a>.
+        Select any of the vendors below to SELL any amount of crypto assets available..
         </p>
       </div>
       <div className="cards">

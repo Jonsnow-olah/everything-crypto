@@ -6,13 +6,13 @@ function Signup() {
     <div className="signup">
     <div className="container">
       <div className="content">
-        <p className="sub-title">Launching Soon</p>
-        <h1 className="title">An NFT like no other</h1>
+        <p className="sub-title">Don't miss Important updates!</p>
+        <h1 className="title">Join a crypto community today!</h1>
         <p className="description">
-          Don't miss out on the release of our new NFT. Sign up below to
-          recieve updates when we go live.
+          Joining a crypto community accelerates your growth and gives you an edge
+          to make more money on the crypto space. Meet new people, Connect, ask questions, make money together.
         </p>
-        <button>Sign Up</button>
+        <a href='https://t.me/jonsnowcrypto'><button>Join Now!</button></a>
       </div>
       {/* <div className="image-container">
         <div className="image">

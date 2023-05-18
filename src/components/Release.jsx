@@ -28,11 +28,11 @@ function Release() {
               {release.description}
             </p>
             <a href={release.projectLink} target="_blank" rel="noreferrer" className="link">
-              Check them out <BsArrowRight />
+              Check out the course <BsArrowRight />
             </a>
         </div>
         <div className="image">
-          <img src={urlFor(release.imgUrl)} alt="release" />
+          <img src={urlFor(release.imgUrl)} alt="image" />
           <div className="ellipse pink"></div>
         </div>
       </div>

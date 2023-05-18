@@ -38,9 +38,9 @@ function Footer() {
                   </div>
                   <p>Our Social links</p>
                   <ul>
-                    <a href='medium.com'><li><BsMedium /></li></a>
-                    <a href='medium.com'><li><BsTwitter /></li></a>
-                    <a href='medium.com'><li><BsTelegram /></li></a>
+                    <a href='https://medium.com/@olahisrael07'><li><BsMedium /></li></a>
+                    <a href='#'><li><BsTwitter /></li></a>
+                    <a href='https://t.me/jonsnowcrypto'><li><BsTelegram /></li></a>
                       {/* {
                           socialLink.map((link, index) => (
                               <li key={index}>{link}</li>
@@ -51,13 +51,13 @@ function Footer() {
               </div>
 
               <div className="links">
-                <p><a href='#home'>About Us</a></p>
+                <p><a href='https://mangrove-lemongrass-1f7.notion.site/About-Us-1bee1663cd0f49fd80be35d3fc945271'>About Us</a></p>
               </div>
 
               
         </div>
         <div className="lower">
-          <span>&copy; Copyright 2022 Olah</span>
+          <span>&copy; Copyright 2022 E-Crypto</span>
 
           </div>
       </footer>
