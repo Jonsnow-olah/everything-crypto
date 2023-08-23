@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+**Everything Cryptocurrency**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://ecryptocurrency.netlify.app/
 
-## Available Scripts
 
-In the project directory, you can run:
+**Frontend and backend developer - Olah Israel**
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Medium course creator - Olah Israel**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**Technologies used - REACT, SCSS, CSS, and SANITY for Backend**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Everything Cryptocurrency (E-crypto) is a cryptocurrency website mainly for beginners who are looking to transition to the crypto and web3 space.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+There is a medium course on the website that can teach you about crypto from start to finish.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There is also a dynamic vendor section that displays the current rate of USDT. This is mainly for people who are looking to buy or sell any form of cryptocurrency tokens or coins.
 
-### `npm run eject`
+All data available on the website are displayed from the backend which was implemented with Sanity.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To implement Sanity in your project, use the link below:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://www.sanity.io/docs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![e1](https://github.com/Jonsnow-olah/everything-crypto/assets/66273186/8c9dfe53-0b0f-4c8a-9865-61512e008a74)
+E-crypto website interface
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![e2](https://github.com/Jonsnow-olah/everything-crypto/assets/66273186/c77b781f-4aae-48d5-bec6-8c15262cfbbc)
+E-crypto admin panel with Sanity
 
-## Learn More
+Sanity admin panel can be configured with your email account, you only need your email account to access your sanity admin panel once you have successfully configured it in your project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
